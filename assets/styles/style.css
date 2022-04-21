@@ -1,0 +1,288 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #0e1525;
+  color: #eee;
+}
+
+.master {
+  width: 90%;
+  margin: auto;
+}
+/* Navegador */
+.navbar {
+  border-radius: 10px;
+}
+
+.logo img {
+  width: 70px;
+  margin-left: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.nav__li i {
+ 
+  font-size: 25px;
+ 
+  color: #000;
+}
+.nav__li a {
+  text-decoration: none;
+  position: relative;
+  color: #00ffff;
+  line-height: 2px;
+  padding: 0 1px;
+  margin: 5px;
+
+}
+
+.nav__li a::before {
+  content: "";
+  display: block;
+  width: 0;
+  background: #fff;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+
+.nav__li a:hover:before {
+  width: 100%;
+}
+
+.btn {
+  background: #0e1525;
+  color: #00ffff;
+  border: solid #00ffff 1px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  color: #0e1525;
+  background: #eee;
+  border: solid #00ffff 1px;
+}
+.slide {
+  margin-top: 20px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.navbar-brand {
+  color: #00ffff;
+}
+
+.carousel-item {
+  height: 400px;
+}
+
+.contenedor-tienda {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  margin: auto;
+  justify-content: center;
+}
+
+.first-line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.second-line {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.card {
+  margin-top: 10px;
+  background: linear-gradient(20deg, #fff, #000);
+  border-radius: 40px;
+  overflow: hidden;
+  border: #000 solid 2px;
+  margin: 25px 0px;
+  text-align: center;
+  transition: all 0.25s;
+}
+h5 {
+  color: #0e1525;
+}
+
+.card-body {
+  height: 200px;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+}
+
+footer {
+  display: flex;
+  background: linear-gradient(25deg, #0e1525, #fff);
+  justify-content: space-between;
+  color: #fff;
+  font-size: 0.8em;
+  height: 10vh;
+  align-items: center;
+  margin-top: 15px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+footer p {
+  color: #00ffff;
+  text-align: center;
+  padding: 1.5em;
+  margin: 5px;
+}
+
+.Logo2 {
+  width: 70px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+}
+
+/* producto  */
+
+.contenedor-producto {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  justify-content: space-between;
+  margin-top: 25px;
+
+}
+
+.first-line__producto {
+  width: 100%;
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  padding: 5px;
+ 
+  flex-wrap: wrap;
+}
+/* .card */
+.producto-one {
+margin-left: 15px;
+}
+
+/* lista */
+.container-list {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+ 
+  padding: 25px;
+  margin: 10px;
+}
+
+.list-one {
+  text-align: center;
+  color: #00ffff;
+  width: 100%;
+}
+
+.list-one ul li {
+  transition: all 0.25s;
+}
+
+.list-one ul li:hover {
+  transform: translateY(-8px);
+}
+
+.list-one ul {
+  display: block;
+  height: 100%;
+}
+
+.list-two {
+  text-align: center;
+  width: 200px;
+  color: #00ffff;
+  width: 100%;
+}
+
+.list-two ul {
+  display: block;
+  height: 100%;
+}
+
+.list-two ul li {
+  transition: all 0.25s;
+}
+
+.list-two ul li:hover {
+  transform: translateY(-8px);
+}
+
+.list-three {
+  color: #00ffff;
+  margin: 5px;
+  width: 100%;
+}
+
+.list-three ul li {
+  transition: all 0.25s;
+}
+
+.list-three ul li:hover {
+  transform: translateY(-8px);
+}
+.list-three ul {
+  text-align: center;
+  display: block;
+  height: 100%;
+}
+
+.audio{
+margin-left: 100px;
+
+}
+.botones{
+  letter-spacing: 1px;
+  margin-top: 15px;
+
+}
+
+p.card-text{
+ color: #000;
+ margin: 5px;  
+
+  
+}
+
+
+.form-label{
+  color: #000;
+}

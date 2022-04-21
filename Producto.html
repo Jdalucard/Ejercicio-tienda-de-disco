@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/cssbostrap/bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+
+    <title>producto</title>
+</head>
+<body>
+          
+        <div class="master">
+                    <!-- <Navigator -->
+                    
+                    <nav
+                      class="navbar navbar-white"
+                      style="background: linear-gradient(5deg, #0e1525, #fff)"
+                    >
+                      <div class="container-fluid">
+                        <div class="logo">
+                          <img src="assets/image/Logo.png" alt="Logo empresa" />
+                        </div>
+                        <ul>
+                          <li class="nav__li">
+                            <i class="fa-solid fa-house-user"></i> <a href="Index.html">Tienda de disco</a>
+                          </li>
+                         
+                          <li class="nav__li">
+                            <i class="fa-solid fa-phone"></i> <a href="#"> Lista de albunes </a>
+                          </li>
+                          <li class="nav__li">
+                            <i class="fa-solid fa-address-card"></i><a href="#">Quiénes somos </a>
+                          </li>
+                     
+                          <li class="nav__li">
+                            <i class="fa-solid fa-cart-arrow-down"></i>
+                            <a href="#"> Carrito</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input
+                              class="form-control me-2"
+                              type="search"
+                              placeholder="Buscar"
+                              aria-label="Search"
+                            />
+                            <button class="btn" type="submit">Buscar</button>
+                          </form>
+                      </div>
+                    </nav>
+              
+                  
+                     
+                    <!-- cards -->
+              
+                 <div class="contenedor-producto">
+                        <div class="first-line__producto ">
+                        
+                            <div class="card producto-one" style="width: 28rem">
+                            <img
+                                src="assets/image/image album/linkin-park-minutes-to-midnight.jpg"
+                                class="card-img-top"
+                                alt="albun de discos"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <hr>
+                                <p class="card-text  card-text_product ">
+                                    Linkin Park es una banda estadounidense de rock alternativo procedente de Agoura Hills, California.
+                                </p>
+                                <div class="botones">
+                                     
+                                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    Editar
+                                     </button>
+                                <a href="#" class="btn ">Eliminar</a>
+                                <a href="#" class="btn ">Tienda de disco</a>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="container-list">
+                                <div class="list-one">
+                                <ul>
+                                    <li>#</li>
+                                    <hr>
+                                    <li>2</li>
+                                    <hr>
+                                    <li>3</li>
+                                    <hr>
+                                    <li>4</li>
+                                    <hr>
+                                    <li>5</li>
+                                    <hr>
+                                    <li>6</li>
+                                    <hr>
+                                    <li>7</li>
+                                    <hr>
+                                    <li>8</li>
+                                </ul>
+                                </div>
+                                <div class="list-two">
+                                <ul>
+                                    <li>Canción</li>
+                                    <hr>
+                                    <li>pista 1</li>
+                                    <hr>
+                                    <li>pista 2</li>
+                                    <hr>
+                                    <li>pista 3</li>
+                                    <hr>
+                                    <li>pista 4</li>
+                                    <hr>
+                                    <li>pista 6</li>
+                                    <hr>
+                                    <li>pista 7</li>
+                                    <hr>
+                                    <li>pista 8</li>
+                                </ul>
+                                </div>
+                                    <div class="list-three">
+                                <ul>
+                                    <li>Duración</li>
+                                    <hr>
+                                    <li>2.30</li>
+                                    <hr>
+                                    <li>2.30</li>
+                                    <hr>
+                                    <li>2.30</li>
+                                    <hr>
+                                    <li>2.30</li>
+                                    <hr>
+                                    <li>2.30</li>
+                                    <hr>
+                                    <li>2.30</li>
+                                    <hr>
+                                    <li>2.30</li>
+                                </ul>
+                                    </div>
+                             </div>
+                             <div class="audio">
+                                <audio  controls src="assets/image/audio/Numb Linkin Park.mp3"></audio>
+                             </div>
+                            </div> 
+                         
+                 </div> 
+                      
+            
+                 
+  
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Editar albun</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" placeholder="coloca tu nombre">
+                                        </div>
+                                         <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label"></label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="coloca tu correo">
+                                          </div>
+                                          <div class="mb-3">
+                                            <label for="exampleFormControlTextarea1" class="form-label">Tus observaciones</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                          </div>
+                                          <div class="card producto-one" style="width: 40%">
+                                            <img
+                                                src="assets/image/image album/linkin-park-minutes-to-midnight.jpg"
+                                                class="card-img-top"
+                                                alt="albun de discos"
+                                            />
+                                            </div>
+                                          <div class="mb-3">
+                                            <label for="formFile" class="form-label" >
+                                            <input class="form-control" type="file" id="formFile">
+                                          </div>
+                                          <label for="exampleDataList" class="form-label"></label>
+                                          <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="seleccione">
+                                          <datalist id="datalistOptions">
+                                            <option value="Pista 1">
+                                            <option value="Pista 2">
+                                            <option value="Pista 3">
+                                            <option value="Pista 4">
+                                            <option value="Pista 5">
+                                          </datalist>  
+                                          
+                                         
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn " data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn ">Guardar</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
+
+                  
+
+                    <!-- footer -->
+                    <footer>
+                      <p>todos los derechos jose martinez</p>
+              
+                      <div class="Logo2">
+                        <img class="Logo2" src="assets/image/Logo.png" alt="logo" />
+                      </div>
+                    </footer>
+              
+                    <!--custom-ccs-->
+                    <script
+                      src="https://kit.fontawesome.com/3bcc03a526.js"
+                      crossorigin="anonymous"
+                    ></script>
+                    <script src="assets/js/bootstrap.min.js"></script>
+                  </div>
+                  </div>
+        </div>    
+       
+</body>
+</html>
