@@ -36,9 +36,8 @@ ul li {
 }
 
 .nav__li i {
- 
   font-size: 25px;
- 
+
   color: #000;
 }
 .nav__li a {
@@ -48,7 +47,6 @@ ul li {
   line-height: 2px;
   padding: 0 1px;
   margin: 5px;
-
 }
 
 .nav__li a::before {
@@ -137,10 +135,6 @@ h5 {
   color: #0e1525;
 }
 
-.card-body {
-  height: 200px;
-}
-
 .card:hover {
   transform: translateY(-15px);
 }
@@ -180,7 +174,6 @@ footer p {
 
   justify-content: space-between;
   margin-top: 25px;
-
 }
 
 .first-line__producto {
@@ -189,12 +182,12 @@ footer p {
   margin: 10px;
   justify-content: space-between;
   padding: 5px;
- 
+
   flex-wrap: wrap;
 }
 /* .card */
 .producto-one {
-margin-left: 15px;
+  margin-left: 15px;
 }
 
 /* lista */
@@ -202,7 +195,7 @@ margin-left: 15px;
   display: flex;
   justify-content: center;
   width: 70%;
- 
+
   padding: 25px;
   margin: 10px;
 }
@@ -265,24 +258,19 @@ margin-left: 15px;
   height: 100%;
 }
 
-.audio{
-margin-left: 100px;
-
+.audio {
+  margin-left: 100px;
 }
-.botones{
+.botones {
   letter-spacing: 1px;
   margin-top: 15px;
-
 }
 
-p.card-text{
- color: #000;
- margin: 5px;  
-
-  
+p.card-text {
+  color: #000;
+  margin: 5px;
 }
 
-
-.form-label{
+.form-label {
   color: #000;
 }
